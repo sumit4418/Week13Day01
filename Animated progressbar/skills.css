@@ -1,0 +1,72 @@
+body {
+  margin: 7rem 15rem;
+  width: 50%;
+}
+.container {
+  border: none;
+  border-radius: 10px;
+  background-color: lightblue;
+  padding: 1rem;
+}
+
+h1 {s
+  text-align: center;
+  margin: 1rem 0;
+  color:  blue;
+}
+.percent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.bar div {
+  position: relative;
+  width: 0;
+  height: 14px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid black;
+  border-radius: 1px;
+  background-color: white;
+}
+
+span {
+  font-weight: bold;
+}
+.html-percent {
+  animation: html 3s forwards;
+}
+@keyframes html {
+  100% {
+    width: 90%;
+  }
+}
+
+.css-percent {
+  animation: css 3s forwards;
+}
+@keyframes css {
+  100% {
+    width: 75%;
+  }
+}
+
+.javascript-percent {
+  animation: javascript 3s forwards;
+}
+@keyframes javascript {
+  100% {
+    width: 72%;
+  }
+}
+
+
+
+.jquery-percent {
+  animation: jquery 3s forwards;
+}
+@keyframes jquery {
+  100% {
+    width: 68%;
+  }
+}
